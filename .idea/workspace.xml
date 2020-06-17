@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee1d3178-2258-4e47-b4de-f30ae6a7c042" name="Default Changelist" comment="" />
+    <list default="true" id="ee1d3178-2258-4e47-b4de-f30ae6a7c042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aZqekuFystBhPFZPtPEctfH4xF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,7 +63,8 @@
       <workItem from="1589482795315" duration="8158000" />
       <workItem from="1589901570579" duration="1198000" />
       <workItem from="1589968635131" duration="30670000" />
-      <workItem from="1590097363876" duration="5293000" />
+      <workItem from="1590097363876" duration="5584000" />
+      <workItem from="1592397621297" duration="4395000" />
     </task>
     <servers />
   </component>
@@ -66,6 +76,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1589978483609" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1590158994202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1590158994202" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1588530691393">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

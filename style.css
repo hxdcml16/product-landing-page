@@ -10,9 +10,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin-top: 100px;
 }
-@media (max-width: 650px) {
+
+@media (max-width: 425px) {
     body {
-        margin-top: 200px;
+        margin-top: 150px;
     }
 }
 
@@ -27,12 +28,7 @@ li {
     margin: 10px 10px;
 }
 
-@media (max-width: 650px) {
-    li {
-        margin: 0 30px;
-    }
-}
-
+/** classes and id styling **/
 .header {
     display: flex;
     justify-content: space-around;
@@ -45,30 +41,24 @@ li {
     z-index: 1000;
     margin: 0 auto;
 }
-@media (max-width: 650px) {
+
+@media (max-width: 425px) {
     .header {
         flex-direction: column;
         margin: 0 auto;
     }
 }
-/** classes and id styling **/
+
 .logo-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+
 .logo {
     width: 90px;
     height: 90px;
     margin: auto;
-}
-@media (max-width: 650px) {
-    .logo {
-        width: 40px;
-        height: 40px;
-        margin-top: 10px;
-
-    }
 }
 
 #nav-list {
@@ -77,36 +67,22 @@ li {
     flex-direction: row;
     list-style: none;
 }
-@media (max-width: 650px){
-    #nav-list {
-        flex-direction: column;
-        margin: 0 auto;
-
-    }
-}
 
 .nav-link {
     flex-wrap: nowrap;
     max-width: border-box;
 
 }
-@media (max-width: 800px){
-    .nav-link {
-        margin: 0 auto;
-        align-items: end;
-    }
-}
-
 
 .container {
     max-width: 1400px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
-@media (min-width: 650px) {
+@media (max-width: 768px) {
     .container {
-        width: 50%;
+        width: 90%;
     }
 }
 
@@ -157,10 +133,12 @@ li {
     background: transparent;
     cursor: pointer;
 }
+
 .grid {
     display: flex;
     margin: 20px auto 50px auto;
 }
+
 .icon {
     margin: auto 50px auto 0px;
 }
@@ -191,6 +169,14 @@ li {
     justify-content: center;
 }
 
+@media (max-width: 425px) {
+    #pricing {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
 .pricing-item {
     display: flex;
     flex-direction: column;
@@ -198,8 +184,17 @@ li {
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid black;
     border-radius: 3px;
+}
+
+@media (max-width: 425px) {
+    .pricing-item {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
 }
 
 .pricing-item > .level {
@@ -209,8 +204,6 @@ li {
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
 }
 
 .pricing-item > h2 {
@@ -234,13 +227,6 @@ li {
     min-width: 170px;
 }
 
-@media (max-width: 1024px) {
-    .pricing-item > button {
-        min-width: 60px;
-    }
-}
-
-
 .pricing-item > button:hover {
     background-color: lightcoral;
     transition: background-color 1s;
@@ -250,21 +236,22 @@ footer {
     margin-top: 30px;
     background-color: #ddd;
     padding: 20px;
+    width: 100%;
 }
 
 footer > ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 footer > ul > li {
-    padding: 0 10px;
+    padding: 0 20px 0 20px;
 }
 
 footer > span {
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     font-size: 0.9em;
     color: #444;
 }
